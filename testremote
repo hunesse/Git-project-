@@ -18,4 +18,6 @@ $updated_sysname_value = snmp2_get($host, $snmp_rw_comm, $sysname_oid);
 
 // Affichage de la nouvelle valeur
 echo "Nouvelle valeur de SYSNAME : $updated_sysname_value\n";
+
+echo "Test à la fin"
 ?>
